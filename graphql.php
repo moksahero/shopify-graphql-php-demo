@@ -1,5 +1,5 @@
 <?php
-$store_host = 'https://devmetokyo.myshopify.com';
+require_once('./config.php');
 
 $query = '{ shop { name } }';
 
