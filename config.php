@@ -1,8 +1,8 @@
 <?php
-$api_key = '7fd18b3b5e0562ac1d04e9716a2953f2';
-$secret_key = '5a7cb865ca71d2528c56ef6a13b14411';
+$api_key = '[作成したAPI key]';
+$secret_key = '[作成したAPI secret key]';
 
-$store_host = 'https://devmetokyo.myshopify.com';
+$store_host = 'https://[ストアサブドメイン].myshopify.com';
 $oauth_url = $store_host . '/admin/oauth';
 
 $app_host = "http://shopifydemo";

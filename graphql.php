@@ -8,7 +8,7 @@ $options = [
     'method' => 'POST',
     'header' => [
       'Content-Type: application/graphql',
-      'X-Shopify-Access-Token: ' . '787034afe88f89aed6f6779020ee647e'
+      'X-Shopify-Access-Token: ' . '[access tokenで置き換える]'
     ],
     'content' => $query
   ]
