@@ -16,4 +16,7 @@ $options = [
 
 $context = stream_context_create($options);
 $contents = file_get_contents($store_host . '/admin/api/graphql.json', false, $context);
+
+echo '<pre>';
+
 print_r(json_decode($contents));

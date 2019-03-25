@@ -35,14 +35,12 @@ mutation {
 }
 ';
 
-echo $mutation;
-
 $options = [
   'http' => [
     'method' => 'POST',
     'header' => [
       'Content-Type: application/graphql',
-      'X-Shopify-Access-Token: ' . '1fe161eb444b34d9230c864c01ce3f73'
+      'X-Shopify-Access-Token: ' . '[access tokenで置き換える]'
     ],
     'content' => $mutation
   ]
